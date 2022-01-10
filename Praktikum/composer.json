@@ -1,0 +1,30 @@
+{
+    "name": "1/algen",
+    "autoload": {
+        "psr-4": {
+            "1\\Algen\\": "src/"
+        },
+        "classmap": [
+            "app",
+            "utils"
+        ],
+        "files": [
+            "main.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "muhamad1800018041",
+            "email": "muhamad1800018041@webmail.uad.ac.id"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.55",
+        "fakerphp/faker": "^1.17",
+        "mbezhanov/faker-provider-collection": "^2.0",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
